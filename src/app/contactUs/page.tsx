@@ -13,7 +13,7 @@ export default function ContactUs() {
             </div>
             <div className='bg-gray-700 p-6'>
                 <h1 className='text-white text-4xl md:text-7xl p-8 text-center'>
-                    Let's Discuss Your Next Project
+                    Let&apos;s Discuss Your Next Project
                 </h1>
                 <p className='text-white text-center text-xl md:text-3xl p-8'>
                     Fill out the form, or call us to
