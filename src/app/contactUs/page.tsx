@@ -25,23 +25,23 @@ export default function ContactUs() {
                     <Contact />
                     <div className="flex flex-col py-6">
                         <h3 className="underline font-bold text-lg mb-2 text-white">Areas Covered:</h3>
-                        <ul className="list-disc list-inside text-base">
-                            <li>Leighton Buzzard</li>
-                            <li>Milton Keynes</li>
-                            <li>Dunstable</li>
-                            <li>Hertfordshire</li>
-                            <li>Bedfordshire</li>
-                            <li>Buckinghamshire</li>
-                            <li>Northants</li>
+                        <ul className="list-disc list-inside text-base text-white">
+                            <li className='text-white'>Leighton Buzzard</li>
+                            <li className='text-white'>Milton Keynes</li>
+                            <li className='text-white'>Dunstable</li>
+                            <li className='text-white'>Hertfordshire</li>
+                            <li className='text-white'>Bedfordshire</li>
+                            <li className='text-white'>Buckinghamshire</li>
+                            <li className='text-white'>Northants</li>
                         </ul>
                     </div>
-                    <div className="flex flex-col  text-center">
-                        <p>
-                        <i className="fa-solid fa-envelope mr-2"></i>
+                    <div className="flex flex-col text-white text-center py-6">
+                        <p className='text-white'>
+                        <i className="fa-solid fa-envelope mr-2 text-white"></i>
                             sightlinewindowsltd@gmail.com
                         </p>
-                        <p>
-                        <i className="fa-solid fa-phone mr-4"></i>
+                        <p className='text-white'>
+                        <i className="fa-solid fa-phone mr-4 text-white"></i>
                             07538800369
                             </p>
                     </div>
