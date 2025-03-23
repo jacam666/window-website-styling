@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex flex-col">
           <div>
             <h2 className="p-2 text-2xl lg:text-4xl my-6 text-center text-white">
-              Your Trusted Windows & Doors Installation Partner
+              Your Trusted Windows and Doors Installation Partner
             </h2>
           </div>
           <div className="flex flex-col lg:flex-row items-center p-2 bg-gray-700 ">

@@ -14,7 +14,7 @@ export default function Services() {
                         Expert Window Installation Services
                     </h1>
                     <p className='space-y-8 px-8 md:p-8 text-black text-center md:text-3xl md:mx-12 mb-4'>
-                        With 20 years’ experience in the trade you can be sure of an outstanding Design/Sale to project managed installation experience. With the added benefit of trade pricing
+                        With 20 years experience in the trade you can be sure of an outstanding Design/Sale to project managed installation experience. With the added benefit of trade pricing
                     </p>
                 </div>
                 <div className="flex flex-col">
@@ -29,7 +29,7 @@ export default function Services() {
                             />
                         </div>
                         <div className="w-full lg:w-1/2 flex flex-col text-center space-y-4 py-4">
-                            <p className="p-2 text-xl lg:text-5xl text-black">Supply & Fit</p>
+                            <p className="p-2 text-xl lg:text-5xl text-black">Supply and Fit</p>
                             <p className="p-2 text-xl lg:text-2xl text-black">UPVC/Aluminium Windows  French Doors</p>
                             <p className="p-2 text-xl lg:text-2xl text-black">UPVC Doors</p>
                             <p className="p-2 text-xl lg:text-2xl text-black">Patio Doors</p>
@@ -43,7 +43,7 @@ export default function Services() {
                     <div className="flex flex-col lg:flex-row items-center p-2 bg-white">
                     <div className="w-full lg:w-1/2 flex flex-col text-center space-y-4 py-4">
                             <p className="p-2 text-xl lg:text-5xl text-black">Trade only</p>
-                            <p className="p-2 text-xl lg:text-2xl text-black">UPVC & Aluminium Windows</p>
+                            <p className="p-2 text-xl lg:text-2xl text-black">UPVC and Aluminium Windows</p>
                         </div>
                         <div className="w-full lg:w-1/2">
                             <Image

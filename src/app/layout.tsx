@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from 'next/script';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -31,7 +32,11 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
           rel="stylesheet"
         />
-        <script src="https://kit.fontawesome.com/9e8c3e5a45.js" crossOrigin="anonymous"></script>
+        <Script
+          src="https://kit.fontawesome.com/9e8c3e5a45.js"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
