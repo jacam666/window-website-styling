@@ -8,7 +8,7 @@ export default function About() {
             <div className=" w-full  bg-gray-700">
                 <h1 className=" text-4xl md:text-7xl text-center  p-8">Welcome to Sightline Windows</h1>
                 <div className="space-y-8 md:p-8  text-white text-center lg:text-xl mx-4 my-4">
-                    <p>
+                    <p className="text-white">
                         Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
                     </p>
                     <p>
@@ -27,7 +27,7 @@ export default function About() {
                     </p>
                     <a
                         data-mdb-ripple-init
-                        className="flex justify-center mx-auto my-4 lg:w-1/4 btn btn-outline-light btn-lg p-3 rounded-xl  bg-gray-800  hover:bg-gray-600  "
+                        className="flex justify-center mx-auto my-4 lg:w-1/4 btn btn-outline-light btn-lg p-3 rounded-xl text-white  bg-gray-800  hover:bg-gray-600  "
                         href="/contactUs"
                         role="button"
                     >

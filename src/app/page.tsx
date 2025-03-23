@@ -16,7 +16,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col lg:flex-row items-center p-2 bg-gray-700 ">
             <Image
-              src="/images/mainPage-Image.avif"
+              src="/images/services2-image.avif"
               height={400}
               width={1920}
               alt="main page image"
@@ -28,7 +28,7 @@ export default function Home() {
               </h4>
               <a
                 data-mdb-ripple-init
-                className="flex justify-center mx-auto my-4 md:w-1/4 btn btn-outline-light btn-lg p-3 rounded-xl  bg-gray-800  hover:bg-gray-600  "
+                className="flex justify-center mx-auto my-4 md:w-1/4 btn btn-outline-light btn-lg p-3 rounded-xl text-white bg-gray-800  hover:bg-gray-600  "
                 href="/about"
                 role="button"
               >

@@ -68,13 +68,12 @@ const Footer: React.FC = () => {
             {/* </div> */}
 
             {/* Copyright */}
-            <div className="text-center p-12" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+            <div className="text-center p-12 text-white">
                 © 2025 Copyright: 
                 <a className="text-body ml-2" href="#!">
                     CamDesigns
                 </a>
             </div>
-            {/* Copyright */}
         </footer>
     );
 };
