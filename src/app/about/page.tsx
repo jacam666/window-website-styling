@@ -1,10 +1,11 @@
+import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
         <div>
             <Navbar />
-            <div className="container mx-auto  bg-gray-700">
+            <div className=" w-full  bg-gray-700">
                 <h1 className=" text-4xl md:text-7xl text-center  p-8">Welcome to Sightline Windows</h1>
                 <div className="space-y-8 md:p-8  text-white text-center lg:text-xl mx-4 my-4">
                     <p>
@@ -34,6 +35,7 @@ export default function About() {
                     </a>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
