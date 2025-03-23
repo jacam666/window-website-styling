@@ -28,8 +28,8 @@ export default function Home() {
               </h4>
               <a
                 data-mdb-ripple-init
-                className="flex justify-center mx-auto my-4 w-1/4 btn btn-outline-light btn-lg p-3 rounded-full  bg-gray-800  hover:bg-gray-600  "
-                href="#!"
+                className="flex justify-center mx-auto my-4 md:w-1/4 btn btn-outline-light btn-lg p-3 rounded-xl  bg-gray-800  hover:bg-gray-600  "
+                href="/about"
                 role="button"
               >
                 Learn More
