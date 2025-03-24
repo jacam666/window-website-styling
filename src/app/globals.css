@@ -28,3 +28,11 @@ body {
 h1 {
   font-family: 'Playfair Display', serif;
 }
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-weight: 500; /* equivalent to md:font-medium */
+  }
+}

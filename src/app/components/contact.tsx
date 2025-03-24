@@ -1,9 +1,13 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Contact() {
-    const [submissionMessage, setSubmissionMessage] = React.useState("");
+    //const [submissionMessage, setSubmissionMessage] = React.useState("");
+    const [submitted, setSubmitted] = useState(false);
+
+
+
     async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
         const form = event.currentTarget;
@@ -25,8 +29,13 @@ export default function Contact() {
             console.log(result)
             form.reset();
             setSubmissionMessage("Message sent successfully!");
-            // Clear the message after 3 seconds
-            setTimeout(() => setSubmissionMessage(""), 3000);
+            setSubmitted(true);
+
+
+            setTimeout(() => {
+                setSubmissionMessage("");
+                setSubmitted(false);
+            }, 3000);
         } else {
             setSubmissionMessage("Something went wrong. Please try again.");
             setTimeout(() => setSubmissionMessage(""), 3000);
@@ -43,7 +52,7 @@ export default function Contact() {
                         id="name"
                         name="name"
                         placeholder="Your Name"
-                        className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                        className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none text-gray-900 focus:border-blue-500"
                         required
                     />
                 </div>
@@ -54,7 +63,7 @@ export default function Contact() {
                         id="email"
                         name="email"
                         placeholder="Your Email"
-                        className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+                        className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none text-gray-900 focus:border-blue-500"
                         required
                     />
                 </div>
@@ -71,16 +80,14 @@ export default function Contact() {
                 </div>
                 <button
                     type="submit"
-                    className="w-full bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded transition-colors"
+                    className={`w-full ${submitted
+                        ? "bg-green-500 hover:bg-green-600"
+                        : "bg-cyan-900 hover:bg-cyan-700"
+                        } text-white font-bold py-2 px-4 rounded transition-colors`}
                 >
-                    Submit Form
+                    {submitted ? "Message Sent!" : "Submit Form"}
                 </button>
             </form>
-            {submissionMessage && (
-        <div className="fixed bottom-4 right-4 py-2 px-4 bg-green-100 text-green-700 text-sm rounded shadow z-50">
-                    {submissionMessage}
-                </div>
-            )}
         </div>
 
     );

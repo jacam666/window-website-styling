@@ -3,10 +3,10 @@ import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
-        <div>
+        <div className="">
             <Navbar />
-            <div className=" w-full  bg-cyan-900">
-                <h1 className=" text-5xl md:text-7xl text-center text-white  py-8 mx-2">Welcome to Sightline Windows</h1>
+            <div className=" w-full  bg-cyan-950">
+                <h1 className=" text-5xl lg:text-8xl text-center text-white  py-8 ">Welcome to Sightline Windows</h1>
                 <div className="space-y-8 md:p-8  text-white text-center lg:text-xl mx-4 my-4">
                     <p className="text-white text-xl">
                         Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
@@ -21,13 +21,13 @@ export default function About() {
                         Our services are available in Leighton Buzzard, Milton Keynes, Dunstable, as well as the wider areas of Hertfordshire, Bedfordshire, Buckinghamshire, and Northants. At Sightline Windows, we take pride in delivering exceptional customer service and top-quality products to meet all your window and door needs.
                     </p>
                 </div>
-                <div className="flex flex-col bg-white p-4">
-                    <p className="bg-white text-black text-center text-xl pt-12 lg:text-3xl lg:px-16  ">
+                <div className="flex flex-col bg-white px-4">
+                    <p className="bg-white text-black text-center text-xl pt-6 lg:text-3xl lg:px-16  ">
                         Contact us today to discuss your requirements and let us help you transform your space.
                     </p>
                     <a
                         data-mdb-ripple-init
-                        className="flex justify-center mx-auto my-4 lg:w-1/4 btn btn-outline-light btn-lg p-3 rounded-xl text-white  bg-gray-800  hover:bg-gray-600  "
+                        className="flex justify-center mx-auto my-4 lg:w-1/4 btn btn-outline-light btn-lg p-3 rounded-xl text-white  bg-cyan-950  hover:bg-gray-600  "
                         href="/contactUs"
                         role="button"
                     >

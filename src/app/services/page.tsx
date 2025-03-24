@@ -13,9 +13,9 @@ export default function Services() {
                     <h1 className=' text-black text-4xl md:text-7xl text-center md:mx-12 p-12'>
                         Expert Window Installation Services
                     </h1>
-                    <p className='space-y-8 px-8 md:p-8 text-black text-center md:text-3xl md:mx-12 mb-4'>
+                    <h2 className='space-y-8 px-8 md:p-8 text-black text-center md:text-3xl font-medium md:mx-12 mb-4'>
                         With 20 years experience in the trade you can be sure of an outstanding Design/Sale to project managed installation experience. With the added benefit of trade pricing
-                    </p>
+                    </h2>
                 </div>
                 <div className="flex flex-col">
                     <div className="flex flex-col md:flex-row items-center p-2 bg-white">

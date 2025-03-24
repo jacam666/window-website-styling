@@ -24,7 +24,7 @@ const Header: React.FC = () => {
                         <div className='flex justify-center pt-8'>
                         <a
                             data-mdb-ripple-init
-                            className=" flex justify-center items-center btn btn-outline-light btn-lg p-3 rounded-full text-white  bg-gray-700  hover:bg-gray-600  "
+                            className=" flex justify-center items-center mx-auto my-4 md:w-1/4 btn btn-outline-light btn-lg p-3 rounded-xl text-white  bg-cyan-900  hover:bg-cyan-600  "
                             href="#!"
                             role="button"
                         >

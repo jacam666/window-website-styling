@@ -11,7 +11,7 @@ export default function ContactUs() {
             <div>
                 <Navbar />
             </div>
-            <div className='bg-cyan-900 p-6'>
+            <div className='bg-cyan-950 p-6'>
                 <h1 className='text-white text-4xl md:text-7xl p-8 text-center'>
                     Let&apos;s Discuss Your Next Project
                 </h1>
