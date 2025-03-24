@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 
 export default function Contact() {
-    //const [submissionMessage, setSubmissionMessage] = React.useState("");
+    const [submissionMessage, setSubmissionMessage] = React.useState("");
     const [submitted, setSubmitted] = useState(false);
 
 
