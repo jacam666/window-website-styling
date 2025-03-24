@@ -79,7 +79,7 @@ export default function Services() {
                         </div>
                     </div>
                 </div>
-                <h1 className="bg-gray-800 text-white text-lg md:text-4xl text-center p-4 md:p-12">
+                <h1 className="bg-cyan-950 text-white text-lg md:text-4xl text-center p-4 md:p-12">
                 Enhance the beauty and functionality of your home with our top-notch window installation services. Let us help you bring your vision to life with custom window solutions tailored to your needs.
                     </h1>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-gray-800 text-center">
+        <footer className="bg-cyan-950 text-center">
             {/* <div className="container p-4 pb-0">
                 <section className="mb-4">
                     <a

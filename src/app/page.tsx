@@ -4,17 +4,17 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 export default function Home() {
   return (
-    <div className=" bg-gray-800  min-h-screen font-[family-name:var(--font-geist-sans)]">
+    <div className=" bg-cyan-950  min-h-screen font-[family-name:var(--font-geist-sans)]">
       <main className="">
         <Navbar />
         <Header />
         <div className="flex flex-col">
           <div>
             <h1 className="p-2 text-2xl lg:text-4xl my-6 text-center text-white">
-              Your Trusted Windows and Doors Installation Partner
+              Your Trusted Windows & Doors Installation Partner
             </h1>
           </div>
-          <div className="flex flex-col lg:flex-row items-center p-2 bg-gray-700 ">
+          <div className="flex flex-col lg:flex-row items-center p-2 bg-cyan-950 ">
             <Image
               src="/images/services2-image.avif"
               height={400}

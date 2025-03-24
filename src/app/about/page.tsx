@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div>
             <Navbar />
-            <div className=" w-full  bg-gray-700">
+            <div className=" w-full  bg-cyan-900">
                 <h1 className=" text-5xl md:text-7xl text-center text-white  py-8 mx-2">Welcome to Sightline Windows</h1>
                 <div className="space-y-8 md:p-8  text-white text-center lg:text-xl mx-4 my-4">
                     <p className="text-white text-xl">
