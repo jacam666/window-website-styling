@@ -3,9 +3,9 @@ import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
-        <div className="">
+        <div className=" min-h-screen flex flex-col">
             <Navbar />
-            <div className=" w-full  bg-cyan-950">
+            <div className="flex-1 w-full  bg-cyan-950">
                 <h1 className=" text-5xl lg:text-8xl text-center text-white  py-8 ">Welcome to Sightline Windows</h1>
                 <div className="space-y-8 md:p-8  text-white text-center lg:text-xl mx-4 my-4">
                     <p className="text-white text-xl">

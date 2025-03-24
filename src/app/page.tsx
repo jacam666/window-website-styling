@@ -14,7 +14,7 @@ export default function Home() {
               Your Trusted Windows & Doors Installation Partner
             </h1>
           </div>
-          <div className="flex flex-col lg:flex-row items-center p-2 bg-cyan-950 ">
+          <div className="flex flex-col lg:flex-row items-center mx-8 p-2 bg-cyan-950 ">
             <Image
               src="/images/services2-image.avif"
               height={400}
@@ -23,7 +23,7 @@ export default function Home() {
               priority
             />
             <div className="flex flex-col ">
-              <h1 className="p-6 text-xl lg:text-2xl text-center  text-white">
+              <h1 className=" py-6 md:p-6 text-xl lg:text-2xl text-center  text-white">
                 Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors. With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.
               </h1>
               <a

@@ -19,13 +19,13 @@ const Header: React.FC = () => {
                 >
                     <div>
                         <div className="text-white text-center p-2 max-w-2xl lg:max-w-4xl">
-                            <h1 className=" text-3xl mx-4 md:text-5xl lg:text-6xl">Quality Window & Door Installation Services at Trade Prices</h1>
+                            <h1 className=" text-3xl mx-4 md:text-5xl lg:text-6xl ">Quality Window & Door Installation Services at Trade Prices</h1>
                         </div>
                         <div className='flex justify-center pt-8'>
                         <a
                             data-mdb-ripple-init
                             className=" flex justify-center items-center mx-auto my-4 md:w-1/4 btn btn-outline-light btn-lg p-3 rounded-xl text-white  bg-cyan-900  hover:bg-cyan-600  "
-                            href="#!"
+                            href="/contactUs"
                             role="button"
                         >
                             Get a free quote
