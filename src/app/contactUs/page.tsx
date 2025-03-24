@@ -24,8 +24,8 @@ export default function ContactUs() {
                 <div className="flex flex-col md:flex-row justify-evenly p-4">
                     <Contact />
                     <div className="flex flex-col py-6">
-                        <h3 className="underline font-bold text-lg mb-2 text-white">Areas Covered:</h3>
-                        <ul className="list-disc list-inside text-base text-white">
+                        <h3 className="underline font-bold text-lg mb-2  text-white">Areas Covered:</h3>
+                        <ul className="list-disc list-inside text-base  text-white">
                             <li className='text-white'>Leighton Buzzard</li>
                             <li className='text-white'>Milton Keynes</li>
                             <li className='text-white'>Dunstable</li>

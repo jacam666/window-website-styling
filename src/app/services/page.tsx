@@ -41,11 +41,7 @@ export default function Services() {
 
                 <div className="flex flex-col">
                     <div className="flex flex-col md:flex-row items-center p-2 bg-white">
-                    <div className="w-full lg:w-1/2 flex flex-col text-center space-y-4 py-4">
-                            <p className="p-2 text-xl lg:text-5xl text-black">Trade only</p>
-                            <p className="p-2 text-xl lg:text-2xl text-black">UPVC and Aluminium Windows</p>
-                        </div>
-                        <div className="w-full lg:w-1/2">
+                    <div className="w-full lg:w-1/2">
                             <Image
                                 src="/images/services2-image.avif"
                                 height={400}
@@ -54,6 +50,11 @@ export default function Services() {
                                 priority
                             />
                         </div>
+                    <div className="w-full lg:w-1/2 flex flex-col text-center space-y-4 py-4">
+                            <p className="p-2 text-xl lg:text-5xl text-black">Trade only</p>
+                            <p className="p-2 text-xl lg:text-2xl text-black">UPVC and Aluminium Windows</p>
+                        </div>
+                        
                     </div>
                 </div>
 

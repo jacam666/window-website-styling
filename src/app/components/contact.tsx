@@ -1,10 +1,12 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Contact() {
+    const [submissionMessage, setSubmissionMessage] = React.useState("");
     async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
+        const form = event.currentTarget;
         const formData = new FormData(event.currentTarget);
         formData.append("access_key", "2dcede50-807f-4105-b537-2481a15ebeec");
         const object = Object.fromEntries(formData);
@@ -20,7 +22,14 @@ export default function Contact() {
         });
         const result = await response.json();
         if (result.success) {
-            console.log(result);
+            console.log(result)
+            form.reset();
+            setSubmissionMessage("Message sent successfully!");
+            // Clear the message after 3 seconds
+            setTimeout(() => setSubmissionMessage(""), 3000);
+        } else {
+            setSubmissionMessage("Something went wrong. Please try again.");
+            setTimeout(() => setSubmissionMessage(""), 3000);
         }
     }
 
@@ -67,6 +76,12 @@ export default function Contact() {
                     Submit Form
                 </button>
             </form>
+            {submissionMessage && (
+        <div className="fixed bottom-4 right-4 py-2 px-4 bg-green-100 text-green-700 text-sm rounded shadow z-50">
+                    {submissionMessage}
+                </div>
+            )}
         </div>
+
     );
 }
