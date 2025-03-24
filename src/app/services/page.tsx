@@ -10,10 +10,10 @@ export default function Services() {
             <Navbar />
             <div className='  bg-white'>
                 <div>
-                    <h1 className=' text-black text-4xl md:text-7xl text-center md:mx-12 p-12'>
+                    <h1 className=' text-black text-4xl md:text-7xl text-center md:mx-8 p-10'>
                         Expert Window Installation Services
                     </h1>
-                    <h2 className='space-y-8 px-8 md:p-8 text-black text-center md:text-3xl font-medium md:mx-12 mb-4'>
+                    <h2 className='space-y-8 px-6 md:p-8 text-black text-center text-xl md:text-3xl font-medium md:mx-12 mb-4'>
                         With 20 years experience in the trade you can be sure of an outstanding Design/Sale to project managed installation experience. With the added benefit of trade pricing
                     </h2>
                 </div>
@@ -28,11 +28,11 @@ export default function Services() {
                                 priority
                             />
                         </div>
-                        <div className="w-full lg:w-1/2 flex flex-col text-center space-y-4 py-4">
-                            <p className="p-2 text-xl lg:text-5xl text-black">Supply and Fit</p>
-                            <p className="p-2 text-xl lg:text-2xl text-black">UPVC/Aluminium Windows  French Doors</p>
-                            <p className="p-2 text-xl lg:text-2xl text-black">UPVC Doors</p>
-                            <p className="p-2 text-xl lg:text-2xl text-black">Patio Doors</p>
+                        <div className="w-full lg:w-1/2 flex flex-col font-medium text-center space-y-4 py-4">
+                            <h1 className="p-2 text-2xl lg:text-5xl text-black">Supply and Fit</h1>
+                            <h1 className="p-2 text-2xl lg:text-2xl text-black">UPVC/Aluminium Windows  French Doors</h1>
+                            <h1 className="p-2 text-2xl lg:text-2xl text-black">UPVC Doors</h1>
+                            <h1 className="p-2 text-2xl lg:text-2xl text-black">Patio Doors</h1>
                         </div>
                     </div>
                 </div>
@@ -50,9 +50,9 @@ export default function Services() {
                                 priority
                             />
                         </div>
-                    <div className="w-full lg:w-1/2 flex flex-col text-center space-y-4 py-4">
-                            <p className="p-2 text-xl lg:text-5xl text-black">Trade only</p>
-                            <p className="p-2 text-xl lg:text-2xl text-black">UPVC and Aluminium Windows</p>
+                    <div className="w-full lg:w-1/2 flex flex-col font-medium text-center space-y-4 py-4">
+                            <h1 className="p-2 text-2xl lg:text-5xl text-black">Trade only</h1>
+                            <h1 className="p-2 text-2xl lg:text-2xl text-black">UPVC and Aluminium Windows</h1>
                         </div>
                         
                     </div>
@@ -72,10 +72,10 @@ export default function Services() {
                             />
                         </div>
                         <div className="w-full lg:w-1/2 flex flex-col text-center space-y-4 py-4">
-                            <p className="p-2 text-xl lg:text-5xl text-black">Trade only</p>
-                            <p className="p-2 text-xl lg:text-2xl text-black">Composite Doors</p>
-                            <p className="p-2 text-xl lg:text-2xl text-black">Lanterns</p>
-                            <p className="p-2 text-xl lg:text-2xl text-black">Bifold Doors</p>
+                            <h1 className="p-2 text-2xl lg:text-5xl text-black">Trade only</h1>
+                            <h1 className="p-2 text-2xl lg:text-2xl text-black">Composite Doors</h1>
+                            <h1 className="p-2 text-2xl lg:text-2xl text-black">Lanterns</h1>
+                            <h1 className="p-2 text-2xl lg:text-2xl text-black">Bifold Doors</h1>
                         </div>
                     </div>
                 </div>

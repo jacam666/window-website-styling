@@ -17,7 +17,7 @@ export default function About() {
                     <p>
                         Our comprehensive range of products is designed to meet the needs of both residential and trade customers. In addition to windows and doors, we also offer composite doors, lanterns, and bifold doors, providing stylish and durable options to enhance the appearance and functionality of any property.
                     </p>
-                    <p className="text-white text-xl">
+                    <p className="text-white text-xl mb-8">
                         Our services are available in Leighton Buzzard, Milton Keynes, Dunstable, as well as the wider areas of Hertfordshire, Bedfordshire, Buckinghamshire, and Northants. At Sightline Windows, we take pride in delivering exceptional customer service and top-quality products to meet all your window and door needs.
                     </p>
                 </div>

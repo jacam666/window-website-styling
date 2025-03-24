@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { usePathname } from 'next/navigation';
+import Link from 'next/link';
 
 const navigation = [
     { name: 'Home', href: '/' },
@@ -45,11 +46,14 @@ export default function Example() {
                     </div>
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex shrink-0 items-center">
+                            <Link href="/">
                             <img
                                 alt="Your Company"
                                 src="/window-logo mv2.avif"
                                 className="h-24 w-auto filter brightness-150"
                             />
+                            </Link>
+                            
                         </div>
                         <div className="hidden sm:ml-6 sm:block">
                             <div className="flex my-5 space-x-24">

@@ -14,7 +14,7 @@ export default function Home() {
               Your Trusted Windows & Doors Installation Partner
             </h1>
           </div>
-          <div className="flex flex-col lg:flex-row items-center mx-8 p-2 bg-cyan-950 ">
+          <div className="flex flex-col lg:flex-row items-center mx-2 p-2 bg-cyan-950 ">
             <Image
               src="/images/services2-image.avif"
               height={400}
