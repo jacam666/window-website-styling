@@ -10,9 +10,9 @@ export default function Home() {
         <Header />
         <div className="flex flex-col">
           <div>
-            <h2 className="p-2 text-2xl lg:text-4xl my-6 text-center text-white">
+            <h1 className="p-2 text-2xl lg:text-4xl my-6 text-center text-white">
               Your Trusted Windows and Doors Installation Partner
-            </h2>
+            </h1>
           </div>
           <div className="flex flex-col lg:flex-row items-center p-2 bg-gray-700 ">
             <Image
@@ -23,9 +23,9 @@ export default function Home() {
               priority
             />
             <div className="flex flex-col ">
-              <h4 className="p-8 text-xl lg:text-2xl  text-white">
+              <h1 className="p-6 text-xl lg:text-2xl text-center  text-white">
                 Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors. With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.
-              </h4>
+              </h1>
               <a
                 data-mdb-ripple-init
                 className="flex justify-center mx-auto my-4 md:w-1/4 btn btn-outline-light btn-lg p-3 rounded-xl text-white bg-gray-800  hover:bg-gray-600  "

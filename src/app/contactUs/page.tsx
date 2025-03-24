@@ -21,7 +21,7 @@ export default function ContactUs() {
                     Or to request a brochure
                 </p>
 
-                <div className="flex flex-col lg:flex-row justify-evenly p-4">
+                <div className="flex flex-col md:flex-row justify-evenly p-4">
                     <Contact />
                     <div className="flex flex-col py-6">
                         <h3 className="underline font-bold text-lg mb-2 text-white">Areas Covered:</h3>

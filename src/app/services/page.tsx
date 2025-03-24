@@ -18,7 +18,7 @@ export default function Services() {
                     </p>
                 </div>
                 <div className="flex flex-col">
-                    <div className="flex flex-col lg:flex-row items-center p-2 bg-white">
+                    <div className="flex flex-col md:flex-row items-center p-2 bg-white">
                         <div className="w-full lg:w-1/2">
                             <Image
                                 src="/images/services1-image.avif"
@@ -40,7 +40,7 @@ export default function Services() {
                 <div className="h-1 bg-black my-4 w-3/4 mx-auto"></div>
 
                 <div className="flex flex-col">
-                    <div className="flex flex-col lg:flex-row items-center p-2 bg-white">
+                    <div className="flex flex-col md:flex-row items-center p-2 bg-white">
                     <div className="w-full lg:w-1/2 flex flex-col text-center space-y-4 py-4">
                             <p className="p-2 text-xl lg:text-5xl text-black">Trade only</p>
                             <p className="p-2 text-xl lg:text-2xl text-black">UPVC and Aluminium Windows</p>
@@ -60,7 +60,7 @@ export default function Services() {
                 <div className="h-1 bg-black my-4 w-3/4 mx-auto"></div>
 
                 <div className="flex flex-col">
-                    <div className="flex flex-col lg:flex-row items-center p-2 bg-white">
+                    <div className="flex flex-col md:flex-row items-center p-2 bg-white">
                         <div className="w-full lg:w-1/2">
                             <Image
                                 src="/images/services3-image.avif"

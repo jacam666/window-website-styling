@@ -15,11 +15,11 @@ const Header: React.FC = () => {
                 />
                 <div
                     className="absolute top-0 left-0 w-full h-full flex items-center justify-center"
-                    style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}
+                    style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}
                 >
                     <div>
                         <div className="text-white text-center p-2 max-w-2xl lg:max-w-4xl">
-                            <h1 className=" text-2xl md:text-5xl lg:text-6xl">Quality Window & Door Installation Services at Trade Prices</h1>
+                            <h1 className=" text-3xl mx-4 md:text-5xl lg:text-6xl">Quality Window & Door Installation Services at Trade Prices</h1>
                         </div>
                         <div className='flex justify-center pt-8'>
                         <a
