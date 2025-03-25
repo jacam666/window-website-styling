@@ -11,13 +11,13 @@ export default function About() {
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundBlendMode: 'multiply',
-                        backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                        backgroundColor: 'rgba(0, 0, 0, 0.6)',
                 }}
         >
             <Navbar />
             <div className="flex-1 w-full "
             >
-                <h1 className=" text-5xl lg:text-7xl sm:mx-16 text-center text-white  py-8 ">Welcome to Sightline Windows</h1>
+                <h1 className="text-5xl lg:text-7xl  text-center text-white  py-8 ">Welcome to Sightline Windows</h1>
                 <div className="space-y-8 md:p-8  text-white text-center lg:text-xl mx-4 my-4">
                     <p className="text-white text-xl lg:text-2xl lg:mx-20">
                         Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.

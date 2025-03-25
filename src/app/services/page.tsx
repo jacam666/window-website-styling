@@ -9,13 +9,22 @@ export default function Services() {
 
         <div
             className="min-h-screen bg-cover bg-center"
+            // style={{
+            //     backgroundImage:
+            //         "url('/images/light-brushed-metal-texture-silver-platinum-stock-wallpaper.jpg')",
+            // }}
+            >
+            <Navbar />
+            <div className=''
             style={{
                 backgroundImage:
                     "url('/images/light-brushed-metal-texture-silver-platinum-stock-wallpaper.jpg')",
-            }}
-            >
-            <Navbar />
-            <div className=''>
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundBlendMode: 'multiply',
+                    backgroundColor: 'rgba(0, 0, 0, 0.1)',
+            }}>
                 <div>
                     <h1 className=' text-black text-4xl md:text-7xl text-center md:mx-8 p-10'>
                         Expert Window Installation Services
@@ -25,10 +34,11 @@ export default function Services() {
                     </h2>
                 </div>
                 <div className="flex flex-col" 
-                style={{
-                    backgroundImage:
-                        "url('/images/light-brushed-metal-texture-silver-platinum-stock-wallpaper.jpg')",
-                }}>
+                // style={{
+                //     backgroundImage:
+                //         "url('/images/light-brushed-metal-texture-silver-platinum-stock-wallpaper.jpg')",
+                // }}
+                >
                     <div className="flex flex-col md:flex-row items-center p-2 ">
                         <div className="w-full lg:w-1/2">
                             <Image
@@ -41,9 +51,9 @@ export default function Services() {
                         </div>
                         <div className="w-full lg:w-1/2 flex flex-col font-medium text-center space-y-4 py-4">
                             <h1 className="p-2 text-2xl lg:text-5xl text-black">Supply and Fit</h1>
-                            <h1 className="p-2 text-2xl lg:text-2xl text-black">UPVC/Aluminium Windows  French Doors</h1>
-                            <h1 className="p-2 text-2xl lg:text-2xl text-black">UPVC Doors</h1>
-                            <h1 className="p-2 text-2xl lg:text-2xl text-black">Patio Doors</h1>
+                            <h1 className="p-2 text-2xl lg:text-3xl text-black">UPVC/Aluminium Windows  French Doors</h1>
+                            <h1 className="p-2 text-2xl lg:text-3xl text-black">UPVC Doors</h1>
+                            <h1 className="p-2 text-2xl lg:text-3xl text-black">Patio Doors</h1>
                         </div>
                     </div>
                 </div>
@@ -51,10 +61,11 @@ export default function Services() {
                 <div className="h-1 bg-black my-4 w-3/4 mx-auto"></div>
 
                 <div className="flex flex-col" 
-                style={{
-                    backgroundImage:
-                        "url('/images/light-brushed-metal-texture-silver-platinum-stock-wallpaper.jpg')",
-                }}>
+                // style={{
+                //     backgroundImage:
+                //         "url('/images/light-brushed-metal-texture-silver-platinum-stock-wallpaper.jpg')",
+                // }}
+                >
                     <div className="flex flex-col md:flex-row items-center p-2">
                         <div className="w-full lg:w-1/2">
                             <Image
@@ -66,8 +77,8 @@ export default function Services() {
                             />
                         </div>
                         <div className="w-full lg:w-1/2 flex flex-col font-medium text-center space-y-4 py-4 ">
-                            <h1 className="p-2 text-2xl lg:text-5xl text-black w-1/2 flex mx-auto">Trade only</h1>
-                            <h1 className="p-2 text-2xl lg:text-2xl text-black">UPVC and Aluminium Windows</h1>
+                            <h1 className="p-2 text-2xl lg:text-5xl text-black">Trade only</h1>
+                            <h1 className="p-2 text-2xl lg:text-3xl text-black">UPVC and Aluminium Windows</h1>
                         </div>
                     </div>
                 </div>
@@ -75,10 +86,11 @@ export default function Services() {
                 <div className="h-1 bg-black my-4 w-3/4 mx-auto"></div>
 
                 <div className="flex flex-col" 
-                style={{
-                    backgroundImage:
-                        "url('/images/light-brushed-metal-texture-silver-platinum-stock-wallpaper.jpg')",
-                }}>
+                // style={{
+                //     backgroundImage:
+                //         "url('/images/light-brushed-metal-texture-silver-platinum-stock-wallpaper.jpg')",
+                // }}
+                >
                     <div className="flex flex-col md:flex-row items-center p-2 ">
                         <div className="w-full lg:w-1/2">
                             <Image
@@ -89,11 +101,11 @@ export default function Services() {
                                 priority
                             />
                         </div>
-                        <div className="w-full lg:w-1/2 flex flex-col text-center space-y-4 py-4">
+                        <div className="w-full lg:w-1/2 flex flex-col text-center font-medium space-y-4 py-4">
                             <h1 className="p-2 text-2xl lg:text-5xl text-black">Trade only</h1>
-                            <h1 className="p-2 text-2xl lg:text-2xl text-black">Composite Doors</h1>
-                            <h1 className="p-2 text-2xl lg:text-2xl text-black">Lanterns</h1>
-                            <h1 className="p-2 text-2xl lg:text-2xl text-black">Bifold Doors</h1>
+                            <h1 className="p-2 text-2xl lg:text-3xl text-black">Composite Doors</h1>
+                            <h1 className="p-2 text-2xl lg:text-3xl text-black">Lanterns</h1>
+                            <h1 className="p-2 text-2xl lg:text-3xl text-black">Bifold Doors</h1>
                         </div>
                     </div>
                 </div>
