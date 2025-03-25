@@ -3,9 +3,20 @@ import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
-        <div className=" min-h-screen flex flex-col">
+        <div className=" min-h-screen flex flex-col "
+        >
             <Navbar />
-            <div className="flex-1 w-full  bg-cyan-950">
+            <div className="flex-1 w-full "
+                style={{
+                    backgroundImage:
+                        "url('/images/window-background-image-2.jpg')",
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        backgroundBlendMode: 'multiply',
+                        backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                }}
+            >
                 <h1 className=" text-5xl lg:text-8xl text-center text-white  py-8 ">Welcome to Sightline Windows</h1>
                 <div className="space-y-8 md:p-8  text-white text-center lg:text-xl mx-4 my-4">
                     <p className="text-white text-xl">
@@ -14,7 +25,7 @@ export default function About() {
                     <p className="text-white text-xl ">
                         With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience. As a trade customer, you can benefit from our specialized supply of UPVC and aluminium windows, ensuring top-notch quality and competitive prices.
                     </p>
-                    <p>
+                    <p className="text-white text-xl ">
                         Our comprehensive range of products is designed to meet the needs of both residential and trade customers. In addition to windows and doors, we also offer composite doors, lanterns, and bifold doors, providing stylish and durable options to enhance the appearance and functionality of any property.
                     </p>
                     <p className="text-white text-xl mb-8">
