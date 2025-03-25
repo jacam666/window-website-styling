@@ -36,3 +36,6 @@ h2 {
     font-weight: 500; /* equivalent to md:font-medium */
   }
 }
+.text-shadow-bottom {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
