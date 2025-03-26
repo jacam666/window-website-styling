@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-cyan-950 text-center">
+        <footer className="bg-stone-50 text-center">
             {/* <div className="container p-4 pb-0">
                 <section className="mb-4">
                     <a
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
             {/* </div> */}
 
             {/* Copyright */}
-            <div className="text-center p-12 text-white">
+            <div className="text-center p-12 text-gray-900">
                 © 2025 Copyright: 
                 <a className="text-body ml-2" href="#!">
                     CamDesigns
