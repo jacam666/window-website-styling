@@ -2,7 +2,6 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 import Header from "./components/header";
-import { Console } from "node:console";
 import { ConsultationButton } from "./components/consultationButton";
 export default function Home() {
   return (
