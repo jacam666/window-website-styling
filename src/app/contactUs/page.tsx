@@ -7,11 +7,11 @@ import Contact from '../components/contact';
 
 export default function ContactUs() {
     return (
-        <div className="">
+        <div className=" bg-stone-50">
             <div>
                 <Navbar />
             </div>
-            <div className="bg-stone-50">
+            <div className="bg-stone-50 min-h-screen">
                 <h2 className='text-gray-900 text-5xl sm:text-8xl font-extrabold p-8 text-center'>
                     Let&apos;s Discuss Your Next Project
                 </h2>
