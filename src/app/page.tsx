@@ -9,35 +9,68 @@ export default function Home() {
         <Navbar />
         <Header />
         <div className="flex flex-col">
-          <div>
-            <h2 className="  p-2 text-2xl lg:text-4xl xl:text-5xl font-bold my-6 text-center text-gray-900">
+          <div className="my-6">
+            <h2 className=" font-sans p-2 text-4xl sm:text-6xl  lg:px-24 font-extrabold text-center text-gray-900">
               Your Trusted Windows & Doors Installation Partner
             </h2>
+            <p className="font-sans p-2 text-center text-xl lg:text-2xl mx-2 text-gray-900">
+              Enhance your space with our expert window installation services
+            </p>
           </div>
-          <div className="flex flex-col lg:flex-row items-center mx-2   ">
+          <div className="flex flex-col w-full lg:flex-row lg:my-8 items-center px-4   ">
             <Image
               src="/images/services2-image.avif"
               height={400}
               width={1920}
               alt="main page image"
               priority
-              className="rounded-lg"
+              className="rounded-l-xl lg:rounded-r-xl lg:rounded-l-none w-full lg:w-1/2"
+            />
+            <div className="flex flex-col w-full lg:w-1/2 ">
+              <div className="flex flex-col py-4 ">
+                <h2 className="font-sans p-2 text-4xl sm:text-6xl  font-bold text-center text-gray-900">
+                  Quality Materials
+                </h2>
+                <p className="font-sans p-2 text-center md:p-6 text-xl lg:text-2xl mx-2 text-gray-900">
+                  Sightline Windows, supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-full lg:flex-row items-center px-4 ">
+            <Image
+              src="/images/pexels-photo-5691503.webp"
+              height={400}
+              width={1920}
+              alt="main page image"
+              priority
+              className="rounded-r-xl lg:w-1/2"
             />
             <div className="flex flex-col ">
-              <p className="font-sans py-6 md:p-6 text-xl lg:text-2xl mx-2   text-gray-900">
-                Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors. With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.
-              </p>
-              <a
-                data-mdb-ripple-init
-                className="flex justify-center w-1/3 mx-auto my-4 md:w-1/4 btn btn-outline-light font-bold btn-lg p-3 rounded-xl text-gray-900 bg-stone-300  hover:bg-stone-200  "
-                href="/about"
-                role="button"
-              >
-                Learn More
-              </a>
+              <div className="flex flex-col py-4">
+                <h2 className="font-sans p-2 text-4xl sm:text-6xl  font-bold text-center text-gray-900">
+                  Professional Installation
+                </h2>
+                <p className="font-sans p-2 text-center md:p-6 text-xl lg:text-2xl mx-2 text-gray-900">
+                With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.                
+                </p>
+              </div>
             </div>
-
           </div>
+          <div className="py-8 m-4 outline-1 outline-gray-900 rounded-3xl bg-stone-200 lg:py-24">
+            <h2 className="font-sans p-4 text-4xl sm:text-6xl  font-bold text-center text-gray-900">
+              Contact us for a free consultation
+            </h2>
+          <a
+            data-mdb-ripple-init
+            className="flex justify-center w-1/3 mx-auto my-4 md:w-1/4 btn btn-outline-light font-bold btn-lg p-3 rounded-xl text-gray-900 bg-stone-300  hover:bg-stone-400  "
+            href="/contactUs"
+            role="button"
+          >
+            Contact Us
+          </a>
+          </div>
+          
         </div>
         <div>
         </div>
