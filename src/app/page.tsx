@@ -2,6 +2,8 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import { Console } from "node:console";
+import { ConsultationButton } from "./components/consultationButton";
 export default function Home() {
   return (
     <div className=" bg-stone-50  min-h-screen font-[family-name:var(--font-geist-sans)]">
@@ -28,10 +30,10 @@ export default function Home() {
             />
             <div className="flex flex-col w-full lg:w-1/2 ">
               <div className="flex flex-col py-4 ">
-                <h2 className="font-sans p-2 text-4xl sm:text-6xl  font-bold text-center text-gray-900">
+                <h2 className="font-sans p-2 text-4xl sm:text-6xl py-4  font-extrabold text-center text-gray-900">
                   Quality Materials
                 </h2>
-                <p className="font-sans p-2 text-center md:p-6 text-xl lg:text-2xl mx-2 text-gray-900">
+                <p className="font-sans p-2 text-center md:p-6 text-xl lg:text-4xl text-gray-900 py-4 mx-4">
                   Sightline Windows, supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
                 </p>
               </div>
@@ -48,29 +50,16 @@ export default function Home() {
             />
             <div className="flex flex-col ">
               <div className="flex flex-col py-4">
-                <h2 className="font-sans p-2 text-4xl sm:text-6xl  font-bold text-center text-gray-900">
+                <h2 className="font-sans p-2 text-4xl sm:text-6xl py-4  font-extrabold text-center text-gray-900">
                   Professional Installation
                 </h2>
-                <p className="font-sans p-2 text-center md:p-6 text-xl lg:text-2xl mx-2 text-gray-900">
-                With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.                
+                <p className="font-sans p-2 text-center md:p-6 text-xl lg:text-4xl mx-2 text-gray-900">
+                  With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.
                 </p>
               </div>
             </div>
           </div>
-          <div className="py-8 m-4 outline-1 outline-gray-900 rounded-3xl bg-stone-200 lg:py-24">
-            <h2 className="font-sans p-4 text-4xl sm:text-6xl  font-bold text-center text-gray-900">
-              Contact us for a free consultation
-            </h2>
-          <a
-            data-mdb-ripple-init
-            className="flex justify-center w-1/3 mx-auto my-4 md:w-1/4 btn btn-outline-light font-bold btn-lg p-3 rounded-xl text-gray-900 bg-stone-300  hover:bg-stone-400  "
-            href="/contactUs"
-            role="button"
-          >
-            Contact Us
-          </a>
-          </div>
-          
+          <ConsultationButton />
         </div>
         <div>
         </div>
