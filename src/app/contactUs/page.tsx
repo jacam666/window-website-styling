@@ -12,14 +12,14 @@ export default function ContactUs() {
                 <Navbar />
             </div>
             <div className="bg-stone-50 min-h-screen">
-                <h2 className='text-gray-900 text-5xl sm:text-8xl font-extrabold p-8 text-center'>
+                <h2 className='font-sans text-5xl sm:text-6xl font-extrabold text-center text-gray-900 py-8'>
                     Let&apos;s Discuss Your Next Project
                 </h2>
-                <p className='font-sans p-2 text-center md:p-6 text-xl lg:text-5xl mb-4  mx-2 text-gray-900'>
+                <h3 className='text-xl md:text-4xl font-bold text-center  p-4 md:p-12 text-gray-900'>
                     Fill out the form, or call us to
                     set up a free in-home consultation.
                     Or to request a brochure
-                </p>
+                </h3>
 
                 <div className="flex flex-col md:flex-row justify-evenly bg-sky-900 p-12 mx-2 rounded-xl">
                     <Contact />
