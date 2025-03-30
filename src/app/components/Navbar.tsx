@@ -37,7 +37,7 @@ export default function Example() {
                 <div className="relative flex h-24 items-center justify-between">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                         {/* Mobile menu button */}
-                        <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-black hover:bg-stone-300 hover:text-gray-900 transition-colors focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
+                        <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-black font-bold hover:bg-sky-400 hover:text-white transition-colors focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
                             <span className="absolute -inset-0.5" />
                             <span className="sr-only">Open main menu</span>
                             <Bars3Icon aria-hidden="true" className="block h-10 w-10 group-data-open:hidden" />
@@ -67,9 +67,9 @@ export default function Example() {
                                             aria-current={isActive ? 'page' : undefined}
                                             className={classNames(
                                                 isActive
-                                                    ? 'bg-stone-200 text-gray-900'
-                                                    : 'text-gray-900 hover:bg-stone-200 hover:text-gray-900',
-                                                'rounded-md px-4 py-2 text-lg font-medium'
+                                                    ? 'bg-sky-800 text-white font-bold'
+                                                    : 'text-gray-900 font-bold hover:bg-sky-400 hover:text-white',
+                                                'rounded-md px-4 py-2 text-lg transition-colors duration-300 ease-in-out'
                                             )}
                                         >
                                             {item.name}
@@ -93,9 +93,9 @@ export default function Example() {
                                 aria-current={isActive ? 'page' : undefined}
                                 className={classNames(
                                     isActive
-                                        ? 'bg-stone-200 text-gray-900'
-                                        : 'text-gray-900 hover:bg-stone-200 hover:text-gray-900',
-                                    'block rounded-md px-3 py-2 text-base font-medium'
+                                        ? 'bg-sky-800 text-white'
+                                        : 'text-gray-900 hover:bg-sky-400 hover:text-white',
+                                    'block rounded-md px-3 py-2 text-base font-bold transition-colors duration-300 ease-in-out'
                                 )}
                             >
                                 {item.name}

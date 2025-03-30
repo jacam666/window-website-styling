@@ -12,15 +12,15 @@ export default function Services() {
             <Navbar />
             <div className='flex flex-col bg-stone-50 px-4'>
                 <div className='py-4'>
-                    <h2 className=' font-sans text-5xl sm:text-8xl font-extrabold text-center text-gray-900 py-8 '>
+                    <h2 className=' font-sans text-5xl sm:text-6xl font-extrabold text-center text-gray-900 py-8 '>
                         Expert Window Installation Services
                     </h2>
                     <h2 className='bg-sky-900 text-white text-lg md:text-4xl font-bold text-center  rounded-xl p-4 md:p-12'>
                         With 20 years experience in the trade you can be sure of an outstanding Design/Sale to project managed installation experience. With the added benefit of trade pricing
                     </h2>
                 </div>
-                <div className="flex flex-col">
-                    <div className="flex flex-col md:flex-row items-center p-2 ">
+                <div className="flex flex-col my-8">
+                    <div className="flex flex-col md:flex-row items-center  shadow-xl rounded-xl outline-1 outline-gray-300 bg-stone-100">
                         <div className="w-full lg:w-1/2">
                             <Image
                                 src="/images/services1-image.avif"
@@ -28,7 +28,7 @@ export default function Services() {
                                 width={1920}
                                 alt="main page image"
                                 priority
-                                className=' w-full  py-4 rounded-4xl'
+                                className=' w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl'
                             />
                         </div>
                         <div className="w-full lg:w-1/2 flex flex-col font-medium text-center space-y-4 py-4 ">
@@ -40,10 +40,10 @@ export default function Services() {
                     </div>
                 </div>
 
-                <div className="h-1 bg-black my-4 w-3/4 mx-auto"></div>
+                {/* <div className="h-1 bg-black my-4 w-3/4 mx-auto"></div> */}
 
-                <div className="flex flex-col">
-                    <div className="flex flex-col md:flex-row items-center p-2">
+                <div className="flex flex-col my-8">
+                    <div className="flex flex-col md:flex-row items-center  shadow-xl rounded-xl outline-1 outline-gray-300 bg-stone-100">
                         <div className="w-full lg:w-1/2">
                             <Image
                                 src="/images/services2-image.avif"
@@ -51,7 +51,7 @@ export default function Services() {
                                 width={1920}
                                 alt="main page image"
                                 priority
-                                className=' w-full py-4 rounded-4xl'
+                                className=' w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl'
                             />
                         </div>
                         <div className="w-full lg:w-1/2 flex flex-col font-medium text-center space-y-4 py-4 ">
@@ -61,10 +61,10 @@ export default function Services() {
                     </div>
                 </div>
 
-                <div className="h-1 bg-black my-4 w-3/4 mx-auto"></div>
+                {/* <div className="h-1 bg-black my-4 w-3/4 mx-auto"></div> */}
 
-                <div className="flex flex-col">
-                    <div className="flex flex-col md:flex-row items-center p-2 ">
+                <div className="flex flex-col my-8">
+                    <div className="flex flex-col md:flex-row items-center  shadow-xl rounded-xl outline-1 outline-gray-300 bg-stone-100 ">
                         <div className="w-full lg:w-1/2">
                             <Image
                                 src="/images/services3-image.avif"
@@ -72,7 +72,7 @@ export default function Services() {
                                 width={1920}
                                 alt="main page image"
                                 priority
-                                className=' w-full py-4 rounded-4xl'
+                                className=' w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl'
                             />
                         </div>
                         <div className="w-full lg:w-1/2 flex flex-col text-center font-medium space-y-4 py-4">
@@ -83,7 +83,7 @@ export default function Services() {
                         </div>
                     </div>
                 </div>
-                <h1 className="bg-sky-900 text-white text-lg md:text-4xl font-bold text-center m-2 rounded-xl p-4 md:p-12">
+                <h1 className="bg-sky-900 text-white text-lg md:text-4xl font-bold text-center  rounded-xl p-4 md:p-12">
                     Enhance the beauty and functionality of your home with our top-notch window installation services. Let us help you bring your vision to life with custom window solutions tailored to your needs.
                 </h1>
             </div>
