@@ -11,10 +11,10 @@ export default function About() {
                 <h2 className="font-sans text-5xl sm:text-8xl font-extrabold text-center text-gray-900 py-4 ">About Us</h2>
                 <div className="space-y-8 md:p-8  text-black text-center lg:text-xl mx-4 my-4">
 
-                    <div className="flex flex-col w-full lg:flex-row lg:my-8 items-center px-4">
-                        <p className="font-sans w-full lg:w-1/2 p-2 text-center md:p-6 text-xl lg:text-5xl mb-4  mx-2 text-gray-900">
+                    <div className="flex flex-col w-full  lg:my-8 items-center px-4">
+                        <h2 className="font-sans w-full  p-2 text-center md:p-6 text-xl lg:text-5xl mb-4  mx-2 text-gray-900">
                             Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
-                        </p>
+                        </h2>
                         <div className="bg-sky-900 w-full lg:w-1/2 rounded-4xl p-4">
                             <h2 className="font-sans p-2 text-4xl sm:text-6xl  font-extrabold text-center text-white">
                                 Trusted By Many
@@ -37,7 +37,7 @@ export default function About() {
                         <h2 className="font-sans p-2 text-4xl sm:text-6xl py-4 font-extrabold text-center text-gray-900">
                             Our Beliefs
                         </h2>
-                        <div className="flex flex-col w-full lg:flex-row lg:my-8 items-center px-4">
+                        <div className="flex flex-col w-full md:flex-row lg:my-8 items-center px-4">
                             <p className="text-gray-900 text-xl lg:text-5xl lg:w-1/2 p-2 py-4  ">
                                 With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.
                             </p>
@@ -55,7 +55,7 @@ export default function About() {
                     <h2 className="font-sans p-2 text-4xl sm:text-6xl py-4  font-extrabold text-center text-gray-900">
                                 Efficient installations
                             </h2>
-                        <div className="flex flex-col w-full lg:flex-row lg:my-8 items-center px-4">
+                        <div className="flex flex-col w-full md:flex-row lg:my-8 items-center px-4">
                             
                             <p className="text-gray-900 text-xl lg:text-5xl lg:w-1/2 p-2 py-4  ">
                                 Our comprehensive range of products is designed to meet the needs of both residential and trade customers.
@@ -74,7 +74,7 @@ export default function About() {
                         <h2 className="font-sans p-2 text-4xl sm:text-6xl py-4  font-extrabold text-center text-gray-900">
                             Areas Covered
                         </h2>
-                        <div className="flex flex-col w-full lg:flex-row lg:my-8 items-center px-2">
+                        <div className="flex flex-col w-full md:flex-row lg:my-8 items-center px-2">
                         <p className="text-gray-900 text-xl lg:text-4xl lg:w-1/2 p-2 py-4 ">
                             Our services are available in Leighton Buzzard, Milton Keynes, Dunstable, as well as the wider areas of Hertfordshire, Bedfordshire, Buckinghamshire, and Northants. At Sightline Windows, we take pride in delivering exceptional customer service and top-quality products to meet all your window and door needs.
                         </p>
