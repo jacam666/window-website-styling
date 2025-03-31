@@ -50,13 +50,13 @@ export default function About() {
                                 </div>
                                 <div className="p-4">
                                     <p className="text-white text-base">
-                                    "Absolutely amazing service and quality. My new windows look fantastic, and the team was professional every step of the way."
+                                    &quot;Absolutely amazing service and quality. My new windows look fantastic, and the team was professional every step of the way.&quot;
                                     </p>
                                 </div>
                             </div>
                             {/* Card 2 */}
                             <div className="bg-sky-900 rounded-lg shadow-md overflow-hidden">
-                            <h3 className="flex font-bold text-lg justify-center pt-8">Customers name</h3>
+                                <h3 className="flex font-bold text-lg justify-center pt-8">Customers name</h3>
                                 <div className="relative h-36">
                                     <Image
                                         src="/images/star-ratings (1).png"
@@ -67,13 +67,13 @@ export default function About() {
                                 </div>
                                 <div className="p-4">
                                     <p className="text-white text-base">
-                                    "Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer. Highly recommend Sightline Windows."
+                                        &quot;Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer. Highly recommend Sightline Windows. &quot;
                                     </p>
                                 </div>
                             </div>
                             {/* Card 3 */}
                             <div className="bg-sky-900 rounded-lg shadow-md overflow-hidden">
-                            <h3 className="flex font-bold text-lg justify-center pt-8">Customers name</h3>
+                                <h3 className="flex font-bold text-lg justify-center pt-8">Customers name</h3>
                                 <div className="relative h-36">
                                     <Image
                                         src="/images/star-ratings (1).png"
@@ -84,7 +84,7 @@ export default function About() {
                                 </div>
                                 <div className="p-4">
                                     <p className="text-white text-base">
-                                    "Top-notch craftsmanship and outstanding customer service. My home feels transformed thanks to their expert installation."
+                                    &quot;Top-notch craftsmanship and outstanding customer service. My home feels transformed thanks to their expert installation.&quot;
                                     </p>
                                 </div>
                             </div>
