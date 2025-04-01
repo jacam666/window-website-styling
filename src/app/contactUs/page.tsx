@@ -7,21 +7,19 @@ import Contact from '../components/contact';
 
 export default function ContactUs() {
     return (
-        <div className=" bg-stone-50">
-            <div>
+        <div className="flex flex-col ">
                 <Navbar />
-            </div>
-            <div className="bg-stone-50 min-h-screen">
-                <h2 className='font-sans text-5xl sm:text-6xl font-extrabold text-center text-gray-900 py-8'>
+            <div className=" min-h-screen flex flex-col w-full bg-gradient-to-r from-sky-900 to-sky-700 lg:p-16 items-center px-4">
+                <h2 className='font-sans text-3xl lg:text-6xl font-extrabold text-center text-white py-4'>
                     Let&apos;s Discuss Your Next Project
                 </h2>
-                <h3 className='text-xl md:text-4xl font-bold text-center  p-4 md:p-12 text-gray-900'>
+                <h3 className='font-sans w-full p-2 text-center md:p-6 text-xl md:text-3xl xl:text-5xl  mx-auto mb-4 text-white'>
                     Fill out the form, or call us to
                     set up a free in-home consultation.
                     Or to request a brochure
                 </h3>
 
-                <div className="flex flex-col md:flex-row justify-evenly bg-sky-900 p-12 mx-2 rounded-xl">
+                <div className="flex flex-col md:flex-row justify-evenly bg-gradient-to-r from-sky-900 to-sky-700 p-12 mx-2 rounded-xl">
                     <Contact />
                     <div className='flex flex-col my-8 rounded-lg  p-4'>
                         <div className="flex flex-col   py-6">

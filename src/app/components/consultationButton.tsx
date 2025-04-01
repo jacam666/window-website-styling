@@ -1,6 +1,6 @@
 export function ConsultationButton() {
     return (
-        <div className="py-8 m-4 outline-1 outline-gray-900 rounded-3xl  bg-gradient-to-r from-sky-900 to-sky-700 lg:py-24">
+        <div className="py-8  outline-1 outline-gray-900   bg-gradient-to-r from-sky-900 to-sky-700 lg:py-24">
             <h2 className="font-sans p-4 text-4xl sm:text-6xl  font-bold text-center text-white">
                 Contact us for a free consultation
             </h2>

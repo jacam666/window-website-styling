@@ -35,7 +35,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="flex justify-center outline-2  p-18 bg-stone-50 rounded-lg shadow-lg">
+        <div className="flex justify-center outline-2 p-4 md:p-24 md:mx-8 bg-stone-50 rounded-lg shadow-xl">
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                     <label htmlFor="name" className="block text-gray-700 font-semibold mb-1">
@@ -80,8 +80,8 @@ export default function Contact() {
                     type="submit"
                     className={`w-full ${submitted
                             ? "bg-green-500 hover:bg-green-600"
-                            : "bg-stone-300 hover:bg-stone-200"
-                        } text-gray-900 font-bold py-2 px-4 rounded transition-colors`}
+                            : "bg-sky-600 hover:bg-sky-400"
+                        } text-white hover:text-gray-900 font-bold py-2 px-4 rounded transition-colors`}
                 >
                     {submitted ? "Message Sent!" : "Submit Form"}
                 </button>

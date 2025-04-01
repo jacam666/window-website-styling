@@ -10,15 +10,16 @@ export default function Services() {
         <div
             className="min-h-screen bg-cover bg-center">
             <Navbar />
-            <div className='flex flex-col bg-stone-50 px-4'>
-                <div className='py-4'>
-                    <h2 className=' font-sans text-5xl sm:text-6xl font-extrabold text-center text-gray-900 py-8 '>
+            <div className='py-4 bg-gradient-to-r from-sky-900 to-sky-700'>
+                    <h2 className=' font-sans text-3xl px-4 lg:text-6xl font-extrabold text-center text-white py-4 '>
                         Expert Window Installation Services
                     </h2>
-                    <h3 className='bg-sky-900 text-white text-lg md:text-4xl font-bold text-center  rounded-xl p-2 md:p-12'>
+                    <h3 className='bg-gradient-to-r from-sky-900 to-sky-700 font-sans w-full p-2 text-center md:p-6 text-lg md:text-2xl md:px-16 xl:text-4xl px-4 mb-4 text-white'>
                         With 20 years experience in the trade you can be sure of an outstanding Design/Sale to project managed installation experience. With the added benefit of trade pricing
                     </h3>
                 </div>
+            <div className='flex flex-col bg-stone-50 px-4'>
+                
                 <div className="flex flex-col my-8">
                     <div className="flex flex-col md:flex-row items-center  shadow-xl rounded-xl outline-1 outline-gray-300 bg-stone-100">
                         <div className="w-full lg:w-1/2">
@@ -83,7 +84,9 @@ export default function Services() {
                         </div>
                     </div>
                 </div>
-                <h3 className="bg-sky-900 text-white text-lg md:text-4xl font-bold text-center  rounded-xl p-2 md:p-12">
+            </div>
+            <div className='py-4 bg-gradient-to-r from-sky-900 to-sky-700'>
+            <h3 className="bg-gradient-to-r from-sky-900 to-sky-700 font-sans w-full p-2 text-center md:p-6 text-xl lg:text-5xl mb-4 text-white px-4">
                     Enhance the beauty and functionality of your home with our top-notch window installation services. Let us help you bring your vision to life with custom window solutions tailored to your needs.
                 </h3>
             </div>

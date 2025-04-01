@@ -12,33 +12,16 @@ export default function About() {
     return (
         <div className="flex flex-col bg-stone-50">
             <Navbar />
-            <div className="flex-1  m-2  rounded-lg">
-            <div
-                        className="flex flex-col w-full rounded-3xl lg:my-8 items-center px-4 relative"
-                        // style={{
-                        //     backgroundImage:
-                        //         "url(/images/brick-wall.svg",
-                        // }}
-                    >
-                        {/* Gradient overlay */}
-                        <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-sky-900 to-sky-700 opacity-90"></div>
-                        <div className="relative z-10 w-full">
-                            <h2 className="font-sans text-5xl sm:text-8xl font-extrabold text-center text-white py-4">
-                                About Us
-                            </h2>
-                            <h2 className="font-sans w-full p-2 text-center md:p-6 text-xl lg:text-5xl mb-4 mx-2 text-white">
-                                Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
-                            </h2>
-                        </div>
-                    </div>
-                <div className="space-y-8 md:p-8   mx-4 my-4">
-                    {/* <div className="flex flex-col w-full rounded-3xl bg-gradient-to-r from-sky-900 to-indigo-900  lg:my-8 items-center px-4">
-                        <h2 className="font-sans text-5xl sm:text-8xl font-extrabold text-center text-white py-4 ">About Us</h2>
-                        <h2 className="font-sans w-full  p-2 text-center md:p-6 text-xl lg:text-5xl mb-4  mx-2 text-white">
-                            Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
-                        </h2>
-                    </div> */}
-                    
+            <div className="flex flex-col w-full bg-gradient-to-r from-sky-900 to-sky-700 lg:p-16 items-center px-4">
+                    <h2 className="font-sans text-3xl lg:text-6xl font-extrabold text-center text-white py-4">
+                        About Us
+                    </h2>
+                    <h2 className="font-sans w-full p-2 text-center md:p-6 text-xl md:text-3xl xl:text-5xl  mx-auto mb-4 text-white">
+                        Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
+                    </h2>
+            </div>
+            <div className="flex-1  rounded-lg">
+                <div className="space-y-8  md:p-8 mx-4 my-4">
                     <div className="flex flex-col my-8">
                         <h2 className="font-sans m-6 text-4xl sm:text-6xl py-4 mb-12 font-extrabold text-center text-gray-900">
                             Our Beliefs
@@ -107,7 +90,7 @@ export default function About() {
 
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row gap-6 p-6  xl:w-5/6 xl:justify-evenly xl:mx-auto bg-gray-50">
+                <div className="flex flex-col md:flex-row gap-6 p-6 mb-6 xl:w-5/6 xl:justify-evenly xl:mx-auto bg-gray-50">
                     <CardBody>
                         <div className="flex flex-col sm:flex-row justify-between items-center">
                             <h1 className="text-xl font-bold text-white">John Major:</h1>
@@ -135,7 +118,7 @@ export default function About() {
                             </div>
                         </div>
                         <p className="text-white">
-                        &quot;Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer.&quot;
+                            &quot;Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer.&quot;
                         </p>
                     </CardBody>
                     <CardBody>
