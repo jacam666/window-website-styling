@@ -2,8 +2,10 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 import { ConsultationButton } from "../components/consultationButton";
-import CardWrapper from "../components/CardWrapper";
 import CardBody from "../components/CardBody";
+//import StarRating from "../components/StarRating";
+//import CardWrapper from "../components/CardWrapper";
+//import CardBody from "../components/CardBody";
 //import StarRating from "../components/StarRating";
 
 export default function About() {
@@ -11,93 +13,32 @@ export default function About() {
         <div className="flex flex-col bg-stone-50">
             <Navbar />
             <div className="flex-1  m-2  rounded-lg">
-                <h2 className="font-sans text-5xl sm:text-8xl font-extrabold text-center text-gray-900 py-4 ">About Us</h2>
+            <div
+                        className="flex flex-col w-full rounded-3xl lg:my-8 items-center px-4 relative"
+                        // style={{
+                        //     backgroundImage:
+                        //         "url(/images/brick-wall.svg",
+                        // }}
+                    >
+                        {/* Gradient overlay */}
+                        <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-sky-900 to-sky-700 opacity-90"></div>
+                        <div className="relative z-10 w-full">
+                            <h2 className="font-sans text-5xl sm:text-8xl font-extrabold text-center text-white py-4">
+                                About Us
+                            </h2>
+                            <h2 className="font-sans w-full p-2 text-center md:p-6 text-xl lg:text-5xl mb-4 mx-2 text-white">
+                                Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
+                            </h2>
+                        </div>
+                    </div>
                 <div className="space-y-8 md:p-8   mx-4 my-4">
-                    <div className="flex flex-col w-full  lg:my-8 items-center px-4">
-                        <h2 className="font-sans w-full  p-2 text-center md:p-6 text-xl lg:text-5xl mb-4  mx-2 text-gray-900">
+                    {/* <div className="flex flex-col w-full rounded-3xl bg-gradient-to-r from-sky-900 to-indigo-900  lg:my-8 items-center px-4">
+                        <h2 className="font-sans text-5xl sm:text-8xl font-extrabold text-center text-white py-4 ">About Us</h2>
+                        <h2 className="font-sans w-full  p-2 text-center md:p-6 text-xl lg:text-5xl mb-4  mx-2 text-white">
                             Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
                         </h2>
-
-                    </div>
-
-                    {/* <div className="w-full bg-white font-bold rounded-lg shadow-lg p-4 ">
-                        <div className="grid sm:grid-cols-3 gap-4">
-                            
-                            <div className="bg-sky-900 rounded-lg shadow-md overflow-hidden">
-                                <h3 className="flex font-bold text-xl justify-center pt-8">Customers name</h3>
-                                <div className="relative h-36">
-                                    <Image
-                                        src="/images/star-ratings (1).png"
-                                        alt="Sunset Over the Sea"
-                                        fill
-                                        className=" px-8"
-                                    />
-                                </div>
-                                <div className="pb-4">
-                                    <p className="text-white text-base px-4 text-center">
-                                        &quot;Absolutely amazing service and quality. My new windows look fantastic, and the team was professional every step of the way.&quot;
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="bg-sky-900 rounded-lg shadow-md overflow-hidden">
-                                <h3 className="flex font-bold text-xl justify-center pt-8">Customers name</h3>
-                                <div className="relative h-36">
-                                    <Image
-                                        src="/images/star-ratings (1).png"
-                                        alt="Sunset Over the Sea"
-                                        fill
-                                        className="px-8"
-                                    />
-                                </div>
-                                <div className="pb-4">
-                                    <p className="text-white text-base px-4 text-center">
-                                        &quot;Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer. Highly recommend Sightline Windows. &quot;
-                                    </p>
-                                </div>
-                            </div>
-                            
-                            <div className="bg-sky-900 rounded-lg shadow-md overflow-hidden">
-                                <h3 className="flex font-bold text-xl justify-center pt-8">Customers name</h3>
-                                <div className="relative h-36">
-                                    <Image
-                                        src="/images/star-ratings (1).png"
-                                        alt="Sunset Over the Sea"
-                                        fill
-                                        className="px-8"
-                                    />
-                                </div>
-                                <div className="pb-4">
-                                    <p className="text-white text-base text-center px-4">
-                                        &quot;Top-notch craftsmanship and outstanding customer service. My home feels transformed thanks to their expert installation.&quot;
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div> */}
-                    <div className="flex flex-col sm:flex-row gap-6 p-6  xl:w-5/6 xl:justify-evenly xl:mx-auto bg-gray-50">
-                        <CardWrapper>
-                            <CardBody
-                                title="John Major : "
-                                desc='&quot;Absolutely amazing service and quality. My new windows look fantastic.&quot;'
-                                className="px-6 py-10 mx-auto rounded-lg shadow dark:bg-zinc-900/90 backdrop-blur-xl"
-                            />
-                        </CardWrapper>
-                        <CardWrapper>
-                            <CardBody
-                                title="Boris Johnson : "
-                                desc='&quot;Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer.&quot;'
-                                className="px-6 py-10 mx-auto rounded-lg shadow dark:bg-zinc-900/90 backdrop-blur-xl"
-                            />
-                        </CardWrapper>
-                        <CardWrapper>
-                            <CardBody
-                                title="Vlad Putin : "
-                                desc='&quot;Top-notch craftsmanship and outstanding customer service. My home feels transformed.&quot;'
-                                className="px-6 py-10 mx-auto rounded-lg shadow dark:bg-zinc-900/90 backdrop-blur-xl"
-                            />
-                        </CardWrapper>
-                    </div>
-
+                    
                     <div className="flex flex-col my-8">
                         <h2 className="font-sans m-6 text-4xl sm:text-6xl py-4 mb-12 font-extrabold text-center text-gray-900">
                             Our Beliefs
@@ -166,10 +107,58 @@ export default function About() {
 
                     </div>
                 </div>
+                <div className="flex flex-col md:flex-row gap-6 p-6  xl:w-5/6 xl:justify-evenly xl:mx-auto bg-gray-50">
+                    <CardBody>
+                        <div className="flex flex-col sm:flex-row justify-between items-center">
+                            <h1 className="text-xl font-bold">John Major:</h1>
+                            <div className="text-yellow-200">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p className="text-white">
+                            '&quot;Absolutely amazing service and quality. My new windows look fantastic.&quot;'
+                        </p>
+                    </CardBody>
+                    <CardBody>
+                        <div className="flex flex-col sm:flex-row justify-between items-center">
+                            <h1 className="text-xl font-bold">Boris Johnson:</h1>
+                            <div className="text-yellow-200">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p className="text-white">
+                            '&quot;Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer.&quot;'
+                        </p>
+                    </CardBody>
+                    <CardBody>
+                        <div className="flex flex-col sm:flex-row justify-between items-center">
+                            <h1 className="text-xl font-bold">Vlad Putin:</h1>
+                            <div className="text-yellow-200">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <p className="text-white">
+                            '&quot;Top-notch craftsmanship and outstanding customer service. My home feels transformed.&quot;'
+                        </p>
+                    </CardBody>
+
+                </div>
 
             </div>
             <ConsultationButton />
             <Footer />
-        </div>
+        </div >
     )
 }
