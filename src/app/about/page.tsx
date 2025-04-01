@@ -110,7 +110,7 @@ export default function About() {
                 <div className="flex flex-col md:flex-row gap-6 p-6  xl:w-5/6 xl:justify-evenly xl:mx-auto bg-gray-50">
                     <CardBody>
                         <div className="flex flex-col sm:flex-row justify-between items-center">
-                            <h1 className="text-xl font-bold">John Major:</h1>
+                            <h1 className="text-xl font-bold text-white">John Major:</h1>
                             <div className="text-yellow-200">
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
@@ -125,7 +125,7 @@ export default function About() {
                     </CardBody>
                     <CardBody>
                         <div className="flex flex-col sm:flex-row justify-between items-center">
-                            <h1 className="text-xl font-bold">Boris Johnson:</h1>
+                            <h1 className="text-xl font-bold text-white">Boris Johnson:</h1>
                             <div className="text-yellow-200">
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
@@ -140,7 +140,7 @@ export default function About() {
                     </CardBody>
                     <CardBody>
                         <div className="flex flex-col sm:flex-row justify-between items-center">
-                            <h1 className="text-xl font-bold">Vlad Putin:</h1>
+                            <h1 className="text-xl font-bold text-white">Vlad Putin:</h1>
                             <div className="text-yellow-200">
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
