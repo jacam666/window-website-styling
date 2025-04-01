@@ -120,7 +120,7 @@ export default function About() {
                             </div>
                         </div>
                         <p className="text-white">
-                            '&quot;Absolutely amazing service and quality. My new windows look fantastic.&quot;'
+                            &quot;Absolutely amazing service and quality. My new windows look fantastic.&quot;
                         </p>
                     </CardBody>
                     <CardBody>
@@ -135,7 +135,7 @@ export default function About() {
                             </div>
                         </div>
                         <p className="text-white">
-                            '&quot;Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer.&quot;'
+                        &quot;Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer.&quot;
                         </p>
                     </CardBody>
                     <CardBody>
@@ -150,7 +150,7 @@ export default function About() {
                             </div>
                         </div>
                         <p className="text-white">
-                            '&quot;Top-notch craftsmanship and outstanding customer service. My home feels transformed.&quot;'
+                            &quot;Top-notch craftsmanship and outstanding customer service. My home feels transformed.&quot;
                         </p>
                     </CardBody>
 
