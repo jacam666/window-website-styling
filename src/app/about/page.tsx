@@ -2,6 +2,9 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 import { ConsultationButton } from "../components/consultationButton";
+import CardWrapper from "../components/CardWrapper";
+import Card from "../components/card";
+//import StarRating from "../components/StarRating";
 
 export default function About() {
     return (
@@ -16,28 +19,10 @@ export default function About() {
                         </h2>
 
                     </div>
-                    {/* <div className="bg-sky-900 w-full  rounded-4xl p-4 ">
-                        <div className="flex flex-col w-full  lg:mt-6 items-center px-4">
-                            <h2 className="font-sans p-2 text-4xl sm:text-6xl  font-extrabold text-center text-white">
-                                Trusted By Many
-                            </h2>
-                            <p className="text-center md:p-6 text-xl lg:text-2xl mx-2 text-white">
-                                We are proud to be trusted by numerous clients for our professional window installation services.
-                            </p>
-                        </div>
-                        <Image
-                            src="/images/star-ratings (1).png"
-                            height={400}
-                            width={1020}
-                            alt="main page image"
-                            priority
-                            className="w-full"
-                        />
-                    </div> */}
 
-                    <div className="w-full bg-white font-bold rounded-lg shadow-lg p-4 ">
+                    {/* <div className="w-full bg-white font-bold rounded-lg shadow-lg p-4 ">
                         <div className="grid sm:grid-cols-3 gap-4">
-                            {/* Card 1 */}
+                            
                             <div className="bg-sky-900 rounded-lg shadow-md overflow-hidden">
                                 <h3 className="flex font-bold text-xl justify-center pt-8">Customers name</h3>
                                 <div className="relative h-36">
@@ -54,7 +39,6 @@ export default function About() {
                                     </p>
                                 </div>
                             </div>
-                            {/* Card 2 */}
                             <div className="bg-sky-900 rounded-lg shadow-md overflow-hidden">
                                 <h3 className="flex font-bold text-xl justify-center pt-8">Customers name</h3>
                                 <div className="relative h-36">
@@ -71,7 +55,7 @@ export default function About() {
                                     </p>
                                 </div>
                             </div>
-                            {/* Card 3 */}
+                            
                             <div className="bg-sky-900 rounded-lg shadow-md overflow-hidden">
                                 <h3 className="flex font-bold text-xl justify-center pt-8">Customers name</h3>
                                 <div className="relative h-36">
@@ -89,26 +73,30 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    {/* <div className="flex flex-col py-4">
-                        <h2 className="font-sans p-2 text-4xl sm:text-6xl py-4 font-extrabold text-center text-gray-900">
-                            Our Beliefs
-                        </h2>
-                        <div className="flex flex-col w-full md:flex-row lg:my-8 items-center px-2">
-                            <p className="text-gray-900 text-xl lg:text-4xl lg:w-1/2 p-2 py-4  ">
-                                With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.
-                            </p>
-                            <Image
-                                src="/images/services3-image.avif"
-                                height={400}
-                                width={1920}
-                                alt="main page image"
-                                priority
-                                className=" w-full lg:w-1/2 py-4 rounded-4xl"
-                            />
-                        </div>
                     </div> */}
+                    <div className="flex flex-col sm:flex-row gap-6 p-6  xl:w-5/6 xl:justify-evenly xl:mx-auto bg-gray-50">
+                        <CardWrapper>
+                            <Card
+                                title="John Major : "
+                                desc='&quot;Absolutely amazing service and quality. My new windows look fantastic.&quot; - Dennis Ritchie'
+                                className="px-6 py-10 mx-auto rounded-lg shadow dark:bg-zinc-900/90 backdrop-blur-xl"
+                            />
+                        </CardWrapper>
+                        <CardWrapper>
+                            <Card
+                                title="Boris Johnson : "
+                                desc='"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie'
+                                className="px-6 py-10 mx-auto rounded-lg shadow dark:bg-zinc-900/90 backdrop-blur-xl"
+                            />
+                        </CardWrapper>
+                        <CardWrapper>
+                            <Card
+                                title="Vlad Putin : "
+                                desc='"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie'
+                                className="px-6 py-10 mx-auto rounded-lg shadow dark:bg-zinc-900/90 backdrop-blur-xl"
+                            />
+                        </CardWrapper>
+                    </div>
 
                     <div className="flex flex-col my-8">
                         <h2 className="font-sans m-6 text-4xl sm:text-6xl py-4 mb-12 font-extrabold text-center text-gray-900">
@@ -175,8 +163,10 @@ export default function About() {
                                 </p>
                             </div>
                         </div>
+
                     </div>
                 </div>
+
             </div>
             <ConsultationButton />
             <Footer />
