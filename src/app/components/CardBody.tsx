@@ -12,7 +12,7 @@ export interface CardProps {
     children?: React.ReactNode;
 }
 
-const Card: React.FC<CardProps> = ({ className = "", title, desc, children }) => {
+const CardBody: React.FC<CardProps> = ({ className = "", title, desc, children }) => {
     return (
         <div className={cn(className)}>
             {children ? (
@@ -29,4 +29,4 @@ const Card: React.FC<CardProps> = ({ className = "", title, desc, children }) =>
     );
 };
 
-export default Card;
+export default CardBody;

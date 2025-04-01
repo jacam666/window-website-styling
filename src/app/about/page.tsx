@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 import { ConsultationButton } from "../components/consultationButton";
 import CardWrapper from "../components/CardWrapper";
-import Card from "../components/card";
+import CardBody from "../components/CardBody";
 //import StarRating from "../components/StarRating";
 
 export default function About() {
@@ -76,23 +76,23 @@ export default function About() {
                     </div> */}
                     <div className="flex flex-col sm:flex-row gap-6 p-6  xl:w-5/6 xl:justify-evenly xl:mx-auto bg-gray-50">
                         <CardWrapper>
-                            <Card
+                            <CardBody
                                 title="John Major : "
-                                desc='&quot;Absolutely amazing service and quality. My new windows look fantastic.&quot; - Dennis Ritchie'
+                                desc='&quot;Absolutely amazing service and quality. My new windows look fantastic.&quot;'
                                 className="px-6 py-10 mx-auto rounded-lg shadow dark:bg-zinc-900/90 backdrop-blur-xl"
                             />
                         </CardWrapper>
                         <CardWrapper>
-                            <Card
+                            <CardBody
                                 title="Boris Johnson : "
-                                desc='"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie'
+                                desc='&quot;Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer.&quot;'
                                 className="px-6 py-10 mx-auto rounded-lg shadow dark:bg-zinc-900/90 backdrop-blur-xl"
                             />
                         </CardWrapper>
                         <CardWrapper>
-                            <Card
+                            <CardBody
                                 title="Vlad Putin : "
-                                desc='"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie'
+                                desc='&quot;Top-notch craftsmanship and outstanding customer service. My home feels transformed.&quot;'
                                 className="px-6 py-10 mx-auto rounded-lg shadow dark:bg-zinc-900/90 backdrop-blur-xl"
                             />
                         </CardWrapper>
