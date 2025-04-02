@@ -26,7 +26,7 @@ export default function About() {
                         <h2 className="font-sans m-6 text-4xl sm:text-6xl py-4 mb-12 font-extrabold text-center text-gray-900">
                             Our Beliefs
                         </h2>
-                        <div className="flex flex-col md:flex-row items-center  shadow-xl rounded-xl outline-1 outline-gray-300 bg-stone-100 ">
+                        <div className="flex flex-col md:flex-row items-center shadow-xl rounded-xl outline-1 outline-gray-300 bg-stone-100 ">
                             <div className="w-full lg:w-1/2">
                                 <Image
                                     src="/images/services3-image.avif"
@@ -34,10 +34,10 @@ export default function About() {
                                     width={1920}
                                     alt="main page image"
                                     priority
-                                    className="w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl"
+                                    className=" w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl"
                                 />
                             </div>
-                            <div className="w-full lg:w-1/2 flex flex-col text-center font-medium space-y-4 py-4">
+                            <div className="w-full lg:w-1/2 flex flex-col text-center font-medium space-y-4 ">
                                 <p className=" text-2xl p-4 lg:text-4xl lg:px-16 text-gray-900">
                                     With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.
                                 </p>
