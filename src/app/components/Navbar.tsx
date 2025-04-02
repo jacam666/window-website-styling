@@ -50,7 +50,7 @@ export default function Example() {
                                 <img
                                     alt="Your Company"
                                     src="/images/logo-4.png"
-                                    className="h-24 w-auto"
+                                    className=" h-32 md:h-24 w-40 md:w-32"
                                 // src='/window-logo mv2.avif'
                                 // className="h-24 w-auto filter invert"
                                 />
