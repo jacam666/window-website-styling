@@ -3,8 +3,8 @@ import React from 'react';
 const Footer: React.FC = () => {
     return (
         <footer className="bg-stone-50 text-center">
-            <div className="container items-center  p-4 pb-0">
-                <section className="mb-4 flex justify-evenly items-center w-3/4 mx-auto mt-6">
+            <div className=" items-center  p-4 pb-0">
+                <section className="mb-4 flex justify-evenly items-center  mx-auto mt-6">
                     <a
                         data-mdb-ripple-init={true}
                         className="btn text-white btn-floating m-1 rounded-sm"
