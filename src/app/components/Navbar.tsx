@@ -33,7 +33,7 @@ export default function Example() {
 
     return (
         <Disclosure as="nav" className="bg-gray-50">
-            <div className="mx-auto px-2 sm:px-6 lg:px-8">
+            <div className="mx-auto px-2 sm:px-6 lg:px-8 bg-sky-50">
                 <div className="relative flex h-24 items-center justify-between">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                         {/* Mobile menu button */}
@@ -49,9 +49,10 @@ export default function Example() {
                             <Link href="/">
                             <img
                                 alt="Your Company"
-                                src="/window-logo mv2.avif"
-                                className="h-24 w-auto filter invert"
+                                src="/images/logo-4.png"
+                                className="h-24 w-auto   "
                             />
+                            {/* filter invert */}
                             </Link>
                             
                         </div>
