@@ -21,9 +21,9 @@ export default function About() {
                     </h2>
             </div>
             <div className="flex-1  rounded-lg">
-                <div className="space-y-8  md:p-8 mx-4 my-4">
-                    <div className="flex flex-col my-8">
-                        <h2 className="font-sans m-6 text-4xl sm:text-6xl py-4 mb-12 font-extrabold text-center text-gray-900">
+                <div className="space-y-8  md:p-8 mx-4 ">
+                    <div className="flex flex-col">
+                        <h2 className="font-sans m-6 text-4xl sm:text-6xl py-4 mb-12 font-extrabold text-center  text-gray-900">
                             Our Beliefs
                         </h2>
                         <div className="flex flex-col md:flex-row items-center shadow-xl rounded-xl outline-1 outline-gray-300 bg-stone-100 ">
