@@ -3,69 +3,69 @@ import React from 'react';
 const Footer: React.FC = () => {
     return (
         <footer className="bg-stone-50 text-center">
-            {/* <div className="container p-4 pb-0">
-                <section className="mb-4">
+            <div className="container items-center  p-4 pb-0">
+                <section className="mb-4 flex justify-evenly items-center w-3/4 mx-auto mt-6">
                     <a
                         data-mdb-ripple-init={true}
-                        className="btn text-white btn-floating m-1"
+                        className="btn text-white btn-floating m-1 rounded-sm"
                         style={{ backgroundColor: '#3b5998' }}
-                        href="#!"
+                        href="https://facebook.com"
                         role="button"
                     >
-                        <i className="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f text-xl p-1 "></i>
                     </a>
 
                     <a
                         data-mdb-ripple-init={true}
-                        className="btn text-white btn-floating m-1"
+                        className="btn text-white btn-floating m-1 rounded-sm"
                         style={{ backgroundColor: '#55acee' }}
-                        href="#!"
+                        href="https://twitter.com"
                         role="button"
                     >
-                        <i className="fab fa-twitter"></i>
+                        <i className="fab fa-twitter text-xl p-1"></i>
                     </a>
 
                     <a
                         data-mdb-ripple-init={true}
-                        className="btn text-white btn-floating m-1"
+                        className="btn text-white btn-floating m-1 rounded-sm"
                         style={{ backgroundColor: '#dd4b39' }}
-                        href="#!"
+                        href="https://google.com"
                         role="button"
                     >
-                        <i className="fab fa-google"></i>
+                        <i className="fab fa-google text-xl p-1"></i>
                     </a>
 
                     <a
                         data-mdb-ripple-init={true}
-                        className="btn text-white btn-floating m-1"
+                        className="btn text-white btn-floating m-1 rounded-sm"
                         style={{ backgroundColor: '#ac2bac' }}
-                        href="#!"
+                        href="https://instagram.com"
                         role="button"
                     >
-                        <i className="fab fa-instagram"></i>
+                        <i className="fab fa-instagram text-xl p-1"></i>
                     </a>
 
-                    <a
+                    {/* <a
                         data-mdb-ripple-init={true}
-                        className="btn text-white btn-floating m-1"
+                        className="btn text-white btn-floating m-1 rounded-sm"
                         style={{ backgroundColor: '#0082ca' }}
                         href="#!"
                         role="button"
                     >
-                        <i className="fab fa-linkedin-in"></i>
+                        <i className="fab fa-linkedin-in text-xl p-1"></i>
                     </a>
 
                     <a
                         data-mdb-ripple-init={true}
-                        className="btn text-white btn-floating m-1"
+                        className="btn text-white btn-floating m-1 rounded-sm"
                         style={{ backgroundColor: '#333333' }}
                         href="#!"
                         role="button"
                     >
-                        <i className="fab fa-github"></i>
-                    </a>
-                </section> */}
-            {/* </div> */}
+                        <i className="fab fa-github text-xl p-1"></i>
+                    </a> */}
+                </section>
+            </div>
 
             {/* Copyright */}
             <div className="text-center p-12 text-gray-900 font-bold text-lg">
