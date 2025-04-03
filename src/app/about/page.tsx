@@ -78,7 +78,7 @@ export default function About() {
                                 />
                             </div>
                             <div className="w-full lg:w-1/2 flex flex-col text-center font-medium space-y-4">
-                                <p className=" text-2xl  lg:text-4xl lg:px-16 text-gray-900">
+                                <p className=" text-2xl p-4 lg:text-4xl lg:px-16 text-gray-900">
                                     Our services are available in Leighton Buzzard, Milton Keynes, Dunstable, as well as the wider areas of Hertfordshire, Bedfordshire, Buckinghamshire, and Northants.
                                 </p>
                             </div>
