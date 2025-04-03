@@ -20,7 +20,7 @@ export default function ContactUs() {
                     Or to request a brochure
                 </h3>
 
-                <div className="flex flex-col md:flex-row justify-evenly bg:white sm:bg-gradient-to-r from-sky-900 to-sky-700 p-12 mx-2 rounded-xl">
+                <div className="flex flex-col md:flex-row justify-evenly  p-12 mx-2 rounded-xl">
                     <div className='backdrop-blur-lg bg-white/70 rounded-xl shadow-2xl p-6'>
                     <Contact />
 

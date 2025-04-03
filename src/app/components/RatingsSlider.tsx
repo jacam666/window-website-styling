@@ -109,5 +109,4 @@ const Slider: React.FC = () => {
         </section>
     );
 };
-
 export default Slider;

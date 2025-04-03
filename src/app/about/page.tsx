@@ -8,13 +8,13 @@ export default function About() {
     return (
         <div className="flex flex-col bg-stone-50">
             <Navbar />
-            <div className="flex flex-col w-full bg-gradient-to-r from-sky-900 to-sky-700 lg:p-16 items-center px-4">
+            <div className="flex flex-col w-full bg-gradient-to-r from-sky-900 to-sky-700 py-4 items-center">
                     <h2 className="font-sans text-3xl lg:text-6xl font-extrabold text-center text-white py-4">
                         About Us
                     </h2>
-                    <h2 className="font-sans w-full p-2 text-center md:p-6 text-xl md:text-3xl xl:text-5xl  mx-auto mb-4 text-white">
+                    <h3 className="font-sans w-full p-2 text-center md:p-6 text-lg md:text-2xl md:px-16 xl:text-4xl px-4 mb-4 text-white">
                         Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors.
-                    </h2>
+                    </h3>
             </div>
             <div className="flex-1  rounded-lg">
                 <div className="space-y-8  md:p-8 mx-4 ">
