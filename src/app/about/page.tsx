@@ -2,7 +2,7 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 import { ConsultationButton } from "../components/consultationButton";
-import Slider from "../components/RatingsSlider";
+//import Slider from "../components/RatingsSlider";
 
 export default function About() {
     return (
