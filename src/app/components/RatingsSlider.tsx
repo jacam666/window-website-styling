@@ -66,7 +66,7 @@ const Slider: React.FC = () => {
                     </div>
                 </div>
                 {/* Slider Item 4 */}
-                <div className="flex-shrink-0 snap-start">
+                <div className="flex-shrink-0 snap-start ">
                     <div className="relative w-[400px] h-[200px] md:w-[400px] md:h-[200px]">
                     <CardBody>
                         <div className="flex flex-col sm:flex-row justify-between items-center">

@@ -38,7 +38,7 @@ const CardBody: React.FC<CardProps> = ({ children }) => {
     return (
         <div className="relative p-2">
             {/* Background card */}
-            <div className="absolute inset-0 scale-x-90 -rotate-[5deg] bg-sky-700 rounded-lg"></div>
+            <div className="absolute inset-0 scale-x-90 -rotate-[5deg] bg-sky-300 rounded-lg"></div>
             {/* Foreground card */}
             <div className="relative bg-sky-900 p-4 shadow-lg rounded-lg">
                 {children}

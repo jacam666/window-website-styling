@@ -2,14 +2,15 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 import Contact from '../components/contact';
+import Slider from '../components/RatingsSlider';
 
 
 
 export default function ContactUs() {
     return (
-        <div className="flex flex-col ">
-                <Navbar />
-            <div className=" min-h-screen flex flex-col w-full bg-gradient-to-r from-sky-900 to-sky-700 lg:p-16 items-center px-4">
+        <div className="flex flex-col bg-gradient-to-r from-sky-900 to-sky-700 ">
+            <Navbar />
+            <div className=" min-h-screen flex flex-col w-full  lg:p-16 items-center px-4">
                 <h2 className='font-sans text-3xl lg:text-6xl font-extrabold text-center text-white py-4'>
                     Let&apos;s Discuss Your Next Project
                 </h2>
@@ -19,8 +20,11 @@ export default function ContactUs() {
                     Or to request a brochure
                 </h3>
 
-                <div className="flex flex-col md:flex-row justify-evenly bg-gradient-to-r from-sky-900 to-sky-700 p-12 mx-2 rounded-xl">
+                <div className="flex flex-col md:flex-row justify-evenly bg:white sm:bg-gradient-to-r from-sky-900 to-sky-700 p-12 mx-2 rounded-xl">
+                    <div className='backdrop-blur-lg bg-white/70 rounded-xl shadow-2xl p-6'>
                     <Contact />
+
+                    </div>
                     <div className='flex flex-col my-8 rounded-lg  p-4'>
                         <div className="flex flex-col   py-6">
                             <h3 className="underline font-bold text-lg lg:text-3xl mb-4  text-center md:text-left text-white">Areas Covered:</h3>
@@ -45,9 +49,11 @@ export default function ContactUs() {
                             </p>
                         </div>
                     </div>
-
                 </div>
 
+            </div>
+            <div>
+                <Slider />
             </div>
             <Footer />
         </div>

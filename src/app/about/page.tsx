@@ -2,12 +2,7 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 import { ConsultationButton } from "../components/consultationButton";
-import CardBody from "../components/CardBody";
 import Slider from "../components/RatingsSlider";
-//import StarRating from "../components/StarRating";
-//import CardWrapper from "../components/CardWrapper";
-//import CardBody from "../components/CardBody";
-//import StarRating from "../components/StarRating";
 
 export default function About() {
     return (
@@ -91,55 +86,7 @@ export default function About() {
 
                     </div>
                 </div>
-                <Slider />
-                {/* <div className="flex flex-col md:flex-row gap-6 p-6 mb-6 xl:w-5/6 xl:justify-evenly xl:mx-auto bg-gray-50">
-                    <CardBody>
-                        <div className="flex flex-col sm:flex-row justify-between items-center">
-                            <h1 className="text-xl font-bold text-white">John Major:</h1>
-                            <div className="text-yellow-200">
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                        <p className="text-white">
-                            &quot;Absolutely amazing service and quality. My new windows look fantastic.&quot;
-                        </p>
-                    </CardBody>
-                    <CardBody>
-                        <div className="flex flex-col sm:flex-row justify-between items-center">
-                            <h1 className="text-xl font-bold text-white">Boris Johnson:</h1>
-                            <div className="text-yellow-200">
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                        <p className="text-white">
-                            &quot;Efficient and friendly! The installation was prompt, and the trade pricing made it a no-brainer.&quot;
-                        </p>
-                    </CardBody>
-                    <CardBody>
-                        <div className="flex flex-col sm:flex-row justify-between items-center">
-                            <h1 className="text-xl font-bold text-white">Vlad Putin:</h1>
-                            <div className="text-yellow-200">
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                        <p className="text-white">
-                            &quot;Top-notch craftsmanship and outstanding customer service. My home feels transformed.&quot;
-                        </p>
-                    </CardBody>
-                </div> */}
-
+                {/* <Slider /> */}
             </div>
             <ConsultationButton />
             <Footer />

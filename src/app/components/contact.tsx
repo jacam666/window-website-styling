@@ -35,7 +35,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="flex justify-center outline-2 p-4 md:p-24 md:mx-8 bg-stone-50 rounded-lg shadow-xl">
+        <div className="flex justify-center outline-2 p-4 md:p-8  md:mx-8 bg-stone-50 rounded-lg shadow-xl">
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                     <label htmlFor="name" className="block text-gray-700 font-semibold mb-1">
