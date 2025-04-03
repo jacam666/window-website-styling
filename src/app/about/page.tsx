@@ -3,6 +3,7 @@ import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
 import { ConsultationButton } from "../components/consultationButton";
 import CardBody from "../components/CardBody";
+import Slider from "../components/RatingsSlider";
 //import StarRating from "../components/StarRating";
 //import CardWrapper from "../components/CardWrapper";
 //import CardBody from "../components/CardBody";
@@ -90,7 +91,8 @@ export default function About() {
 
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row gap-6 p-6 mb-6 xl:w-5/6 xl:justify-evenly xl:mx-auto bg-gray-50">
+                <Slider />
+                {/* <div className="flex flex-col md:flex-row gap-6 p-6 mb-6 xl:w-5/6 xl:justify-evenly xl:mx-auto bg-gray-50">
                     <CardBody>
                         <div className="flex flex-col sm:flex-row justify-between items-center">
                             <h1 className="text-xl font-bold text-white">John Major:</h1>
@@ -136,8 +138,7 @@ export default function About() {
                             &quot;Top-notch craftsmanship and outstanding customer service. My home feels transformed.&quot;
                         </p>
                     </CardBody>
-
-                </div>
+                </div> */}
 
             </div>
             <ConsultationButton />
